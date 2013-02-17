@@ -1,0 +1,129 @@
+/**
+ * Teenatree CSS.
+ */
+
+*{
+	margin: 0; padding: 0;
+	font-family: "Droid Arabic Kufi";
+	line-height: 1.6;
+}
+
+html{
+	direction: rtl;
+}
+
+body{
+	background-color: #8F0B40;
+	
+}
+
+#wrapper{
+	margin-left: auto; margin-right: auto;
+	width: 960px; text-align: right;
+	background-color: #FFF;
+}
+
+header{
+	background-color: #8F0B40;
+	padding: 40px;
+}
+
+header h1{
+	color: #E075A0;
+}
+
+header p{
+	color: #fff;
+}
+
+header a{
+	display: block; text-decoration: none;
+	float: left; font-size: 20px;
+	margin-top: -50px; color: #fff;
+	background-color: #0B7CD9;
+	border: 0; padding: 8px;
+}
+
+header:after{
+	content: "."; display: block;
+	height: 0; clear: both;
+	visibility: hidden;
+}
+
+#features{
+	
+}
+
+.odd_feature, .even_feature{
+	padding: 20px;
+}
+
+.even_feature{
+	background-color: #f1f1f1;
+}
+
+.odd_feature img, .even_feature img{
+	border: 1px solid #ccc;
+}
+
+.odd_feature h1, .even_feature h1{
+	font-size: 22px; color: #E01B6A;
+}
+
+.odd_feature p, .even_feature p{
+	text-align: justify; color: #666;
+}
+
+.odd_feature img{
+	float: right; margin-left: 20px;
+}
+
+.even_feature img{
+	float: left; margin-right: 20px;
+}
+
+.odd_feature:after, .even_feature:after{
+	content: "."; display: block;
+	height: 0; clear: both;
+	visibility: hidden;
+}
+
+#other_features{
+	padding-top: 20px; padding-bottom: 20px; 
+}
+
+#other_features:after{
+	content: "."; display: block;
+	height: 0; clear: both;
+	visibility: hidden;
+}
+
+.one_feature{
+	margin-right: 15px;
+	float: right; width: 300px;
+}
+
+.one_feature img{
+	float: right; margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.one_feature h1{
+	font-size: 16px; margin-bottom: 4px;
+}
+
+.one_feature p{
+	font-size: 12px; color: #666;
+	margin-right: 80px; text-align: justify;
+}
+
+.one_feature p:after{
+	content: "."; display: block;
+	height: 0; clear: both;
+	visibility: hidden;
+}
+
+footer{
+	text-align: center; font-size: 12px;
+	padding: 20px; color: #ED98BA;
+}
