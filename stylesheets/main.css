@@ -36,15 +36,18 @@ header p{
 	color: #fff;
 }
 
-header a{
-	display: block; text-decoration: none;
-	float: left; font-size: 20px;
-	margin-top: -50px; color: #fff;
-	background-color: #0B7CD9;
-	border: 0; padding: 8px;
+header .leftside{
+	float: left; text-align: left;
 }
 
-header:after{
+header a{
+	display: block; text-decoration: none;
+	float: left; font-size: 18px;
+	color: #fff; margin-bottom: 14px;
+	background-color: #0B7CD9; padding: 8px;
+}
+
+header .leftside:after{
 	content: "."; display: block;
 	height: 0; clear: both;
 	visibility: hidden;
@@ -67,11 +70,12 @@ header:after{
 }
 
 .odd_feature h1, .even_feature h1{
-	font-size: 22px; color: #E01B6A;
+	font-size: 20px; color: #E01B6A;
 }
 
 .odd_feature p, .even_feature p{
-	text-align: justify; color: #666;
+	font-size: 14px; color: #666;
+	text-align: justify;
 }
 
 .odd_feature img{
@@ -118,6 +122,36 @@ header:after{
 }
 
 .one_feature p:after{
+	content: "."; display: block;
+	height: 0; clear: both;
+	visibility: hidden;
+}
+
+.contactus{
+	background-color: #C7DEFC;
+	padding: 20px;
+}
+
+.contactus ul{
+	list-style-type: none;
+	font-size: 14px;
+}
+
+.contactus .link{
+	color: #316AB5;
+	text-decoration: none;
+}
+
+.contactus h1{
+	font-size: 18px; padding-bottom: 8px;
+}
+
+.devnet{
+	float: left; padding: 20px;
+	color: #fff;
+}
+
+.contactus:after{
 	content: "."; display: block;
 	height: 0; clear: both;
 	visibility: hidden;
