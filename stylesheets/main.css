@@ -1,0 +1,163 @@
+/**
+ * Teenatree CSS.
+ */
+
+*{
+	margin: 0; padding: 0;
+	font-family: "Droid Arabic Kufi";
+	line-height: 1.6;
+}
+
+html{
+	direction: rtl;
+}
+
+body{
+	background-color: #8F0B40;
+	
+}
+
+#wrapper{
+	margin-left: auto; margin-right: auto;
+	width: 960px; text-align: right;
+	background-color: #FFF;
+}
+
+header{
+	background-color: #8F0B40;
+	padding: 40px 0px 20px;
+}
+
+header h1{
+	color: #E075A0;
+}
+
+header p{
+	color: #fff;
+}
+
+header .leftside{
+	float: left; text-align: left;
+}
+
+header a{
+	display: block; text-decoration: none;
+	float: left; font-size: 18px;
+	color: #fff; margin-bottom: 14px;
+	background-color: #0B7CD9; padding: 8px;
+}
+
+header .leftside:after{
+	content: "."; display: block;
+	height: 0; clear: both;
+	visibility: hidden;
+}
+
+#features{
+	
+}
+
+.odd_feature, .even_feature{
+	padding: 20px;
+}
+
+.even_feature{
+	background-color: #f1f1f1;
+}
+
+.odd_feature img, .even_feature img{
+	border: 1px solid #ccc;
+}
+
+.odd_feature h1, .even_feature h1{
+	font-size: 20px; color: #E01B6A;
+}
+
+.odd_feature p, .even_feature p{
+	font-size: 14px; color: #666;
+	text-align: justify;
+}
+
+.odd_feature img{
+	float: right; margin-left: 20px;
+}
+
+.even_feature img{
+	float: left; margin-right: 20px;
+}
+
+.odd_feature:after, .even_feature:after{
+	content: "."; display: block;
+	height: 0; clear: both;
+	visibility: hidden;
+}
+
+#other_features{
+	padding-top: 20px; padding-bottom: 20px; 
+}
+
+#other_features:after{
+	content: "."; display: block;
+	height: 0; clear: both;
+	visibility: hidden;
+}
+
+.one_feature{
+	margin-right: 15px;
+	float: right; width: 300px;
+}
+
+.one_feature img{
+	float: right; margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.one_feature h1{
+	font-size: 16px; margin-bottom: 4px;
+}
+
+.one_feature p{
+	font-size: 12px; color: #666;
+	margin-right: 80px; text-align: justify;
+}
+
+.one_feature p:after{
+	content: "."; display: block;
+	height: 0; clear: both;
+	visibility: hidden;
+}
+
+.contactus{
+	background-color: #C7DEFC;
+	padding: 20px;
+}
+
+.contactus ul{
+	list-style-type: none;
+	font-size: 14px;
+}
+
+.contactus .link{
+	color: #316AB5;
+	text-decoration: none;
+}
+
+.contactus h1{
+	font-size: 18px; padding-bottom: 8px;
+}
+
+.devnet{
+	float: left; padding: 20px;
+	color: #fff;
+}
+
+.contactus:after{
+	content: "."; display: block;
+	height: 0; clear: both;
+	visibility: hidden;
+}
+
+footer{
+	text-align: center; font-size: 12px;
+	padding: 20px; color: #ED98BA;
+}
